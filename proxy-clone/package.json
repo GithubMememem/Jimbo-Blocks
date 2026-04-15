@@ -1,0 +1,16 @@
+{
+  "name": "proxy-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Functional reverse-proxy clone wrapper for a target proxy site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}
